@@ -1,0 +1,12 @@
+target/
+demo/target/
+easy-query/target/
+.classpath
+.project
+.settings
+demo/.classpath
+demo/.project
+demo/.settings
+easy-query/.classpath
+easy-query/.project
+easy-query/.settings
