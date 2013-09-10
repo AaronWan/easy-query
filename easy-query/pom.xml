@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+ <parent>
+ <groupId>easyQuery.all</groupId>
+ <version>0.1</version>
+ <artifactId>easyQuery-all</artifactId>
+ <relativePath>../pom.xml</relativePath>
+</parent>
+  <groupId>easy-query</groupId>
+  <artifactId>easy-query</artifactId>
+  <packaging>jar</packaging>
+  <version>0.1</version>
+  <name>easy-query</name>
+<dependencies>
+</dependencies>
+  <build>
+	<resources>
+      <resource>
+        <directory>src/main/java</directory>
+        <includes>
+          <include>**/*.xml</include>
+          <include>**/*.properties</include>
+        </includes>
+      </resource>
+      <resource>
+        <directory>src/main/resources</directory>
+        <includes>
+          <include>**/*.xml</include>
+          <include>**/*.properties</include>
+        </includes>
+      </resource>
+    </resources>
+	<finalName>easy-query</finalName>
+	<plugins> 
+      <plugin> 
+        <artifactId>maven-compiler-plugin </artifactId> 
+        <configuration> 
+          <source>1.5 </source> 
+          <target>1.5 </target> 
+        </configuration> 
+      </plugin> 
+    </plugins> 
+  </build>
+</project>
