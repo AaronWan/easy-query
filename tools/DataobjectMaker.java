@@ -1,5 +1,3 @@
-package com.cmcc.normandy.dal.tool;
-
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 import java.sql.Connection;
