@@ -13,6 +13,10 @@
   <version>0.1</version>
   <name>easy-query</name>
 <dependencies>
+<dependency>
+  <groupId>org.antlr</groupId>
+  <artifactId>antlr-runtime</artifactId>
+</dependency>
  <dependency>
       <groupId>com.mysema.querydsl</groupId>
       <artifactId>querydsl-sql</artifactId>
